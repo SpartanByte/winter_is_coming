@@ -166,3 +166,4 @@ Route::get('/test-gallery', function(){
  * Named route testing, remove later
  */
 Route::get('/var-test', 'VariableController@show');
+

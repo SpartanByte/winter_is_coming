@@ -22,3 +22,4 @@ class VariableController extends Controller
     	return view('/var-test')->withExample($example)->withExample2($example2)->withExample3($example3);
     }
 }
+
