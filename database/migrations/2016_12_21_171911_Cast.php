@@ -20,7 +20,7 @@ class Cast extends Migration
             $table->string('actor')->unique();
             $table->string('character');
             $table->timestamps();
-            $table->date('created_at')->nullable();
+            $table->date('created')->nullable();
         });
     }
 
